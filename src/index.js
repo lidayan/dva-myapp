@@ -4,7 +4,7 @@ import fetch from 'dva/fetch';
 import React from 'react';
 import './index.html';
 import Count from './models/count'
-import AppRouter from './router'
+import AppRouter from './routers'
 
 // 1. Initialize
 const app = dva();
