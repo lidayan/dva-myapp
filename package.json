@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "dependencies": {
+    "babel-runtime": "^6.9.2",
+    "css-loader": "^0.26.1",
+    "dva": "^1.2.1",
+    "keymaster": "^1.6.2",
+    "react": "^15.4.0",
+    "react-css-modules": "^4.1.0",
+    "react-dom": "^15.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.8.0",
+    "roadhog": "^0.5.2"
+  },
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build"
+  }
+}
