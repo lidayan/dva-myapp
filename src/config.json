@@ -1,0 +1,34 @@
+
+
+{
+    "apps": {
+        "duliang": {
+            "key": "duliang",
+            "name": "度量平台",
+            "modules": {
+                "bug_summary": {
+                    "name": "bug概要",
+                    "key": "summary"
+                },
+                "bug_changes": {
+                    "name": "bug扭转记录",
+                    "key": "changes"
+                }
+            }
+        },
+        "app2": {
+            "key": "app2",
+            "name": "应用2",
+            "modules": {
+                "app2_module1": {
+                    "name": "app2_module1",
+                    "key": "app2_module1"
+                },
+                "app2_module2": {
+                    "name": "app2_module2",
+                    "key": "app2_module2"
+                }
+            }
+        }
+    }
+}

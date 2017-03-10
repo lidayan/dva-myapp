@@ -1,6 +1,8 @@
 {
   "private": true,
   "dependencies": {
+    "antd": "^2.8.0",
+    "babel-plugin-import": "^1.1.1",
     "babel-runtime": "^6.9.2",
     "css-loader": "^0.26.1",
     "dva": "^1.2.1",

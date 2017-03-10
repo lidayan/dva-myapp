@@ -1,7 +1,8 @@
 {
   "entry": "src/index.js",
-  "disableCSSModules": false,
+  "disableCSSModules": true,
   "extraBabelPlugins": [
-    "transform-runtime"
+    "transform-runtime",
+    ["import", { "libraryName": "antd", "style": "css" }]
   ]
 }
